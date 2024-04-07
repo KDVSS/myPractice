@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+<<<<<<< HEAD
 static int count = 1;
 static int counts = 1;
 
 
+=======
+>>>>>>> 0acb4fc (First git commit function, linkedlist, and binaryTree files updated.)
 struct node {
     int data;
     struct node* leftBranch;
@@ -98,7 +101,11 @@ int main(){
     {
         levelOrderTraversal(root, i);
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 0acb4fc (First git commit function, linkedlist, and binaryTree files updated.)
     printf("\n\n");
     return 0;
 }
